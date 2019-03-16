@@ -1,0 +1,84 @@
+body{
+	background-color: #667292;
+	color: white;
+	text-align: center;
+	font-family:helvetica;
+	background-image: url("sp4.png");
+	background-size: cover;
+	
+}
+#hd{
+	font-family:arial ;
+	background-clip: border-box;
+	box-sizing: border-box;
+	background-color: #36486b;
+	padding: 1.2%;
+	margin: -1.3% -0.6%;
+	font-size: 1.2em;
+	font-weight: 500;
+	font-stretch: expanded;
+
+}
+header{
+	font-weight: 9;
+}
+input{
+	width: 55%;
+	padding: 1.7%;
+	height: 1.2em;
+	border-radius: 5px;
+}
+button{
+	width: 25%;
+	margin-left:1.2%;
+	height: 2.2em;
+	border-radius: 6px;
+	background-color:crimson ;
+	border-color: red;
+}
+.ad{
+	width: 30%;
+	padding-top: 1.8%;
+	padding-bottom: 1.7%;
+	margin-left: 2.5%;
+	background-color: #8d9db6;
+	border-radius: 7px;
+	text-align: center;
+	float: left;
+}
+#wrk1 li{
+	width: 91%;
+	text-align: center;
+	align-self: center;
+	list-style-type:none;
+	padding: 0.8%;
+	height: 1.4em;
+	background-color:#daa520;
+	border-radius: 5px;
+	margin-left: -4.7%;
+	border-radius: 5px;
+}
+#wrk2 li{
+	width: 91%;
+	text-align: center;
+	align-self: center;
+	list-style-type:none;
+	padding: 0.8%;
+	height: 1.4em;
+	background-color:#daa520;
+	border-radius: 5px;
+	margin-left: -4.7%;
+	border-radius: 5px;
+}
+#wrk3 li{
+	width: 91%;
+	text-align: center;
+	align-self: center;
+	list-style-type:none;
+	padding: 0.8%;
+	height: 1.4em;
+	background-color:#daa520;
+	border-radius: 5px;
+	margin-left: -4.7%;
+	border-radius: 5px;
+}
