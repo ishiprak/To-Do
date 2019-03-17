@@ -15,12 +15,12 @@ function spp(){
 	document.getElementById("wrk3").innerHTML+="<br/><li>"+np+"</li>";
 }
 
-function sp2(){
+function del(){
 
 	event.target.remove();
 }
 
-function sp3(){
+function cross(){
 	event.target.style.textDecoration="line-through";
 }
 
