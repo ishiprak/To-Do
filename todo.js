@@ -1,15 +1,15 @@
-function sp(){
+function add1(){
 	//work.innerHTML="<br/><li>Hello</li>";
 	var np=document.getElementById("inp").value;
 	document.getElementById("wrk1").innerHTML+="<br/><li>"+np+"</li>";
 }
 
-function sps(){
+function add2(){
 	//work.innerHTML="<br/><li>Hello</li>";
 	var np=document.getElementById("inp").value;
 	document.getElementById("wrk2").innerHTML+="<br/><li>"+np+"</li>";
 }
-function spp(){
+function add3(){
 	//work.innerHTML="<br/><li>Hello</li>";
 	var np=document.getElementById("inp").value;
 	document.getElementById("wrk3").innerHTML+="<br/><li>"+np+"</li>";
@@ -24,7 +24,7 @@ function cross(){
 	event.target.style.textDecoration="line-through";
 }
 
-function sp4(){
+function orig(){
 	event.target.style.textDecoration="none";
 }
 
