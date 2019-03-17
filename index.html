@@ -6,6 +6,7 @@
 	<title>TODO</title>
 	<link rel="stylesheet" type="text/css" href="todo.css">
 	<script type="text/javascript" src="todo.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
 	<header id="hd">TASK MANAGER</header>
@@ -17,38 +18,35 @@
 		<header>TO-DO</header>
 		<br/>
 		<br/>
-		<input type="text" id="inp" name="sp" placeholder="Add To-do here:"/>
-		<button onclick="add1()">Add!</button>
-    	        <br/>
+		<button id="but1" onclick="add1()">Add!</button>
+    	<br/>
 		<div>
 			<ul id="wrk1" onclick="del()" onmouseover="cross()" onmouseout="orig()">
 			</ul>
 		</div>
-        </div>
+    </div>
  	<div class="ad">
 		<header>DOING</header>
 		<br/>
 		<br/>
-		<input type="text" id="inp" name="sp" placeholder="Add To-do here:"/>
-		<button onclick="add2()">Add!</button>
-    	        <br/>
+		<button id="but2" onclick="add2()">Add!</button>
+    	<br/>
 		<div>
 			<ul id="wrk2" onclick="del()" onmouseover="cross()" onmouseout="orig()">
 			</ul>
 		</div>
-	</div>
-        <div class="ad">
+    </div>
+    <div class="ad">
 		<header>DONE</header>
 		<br/>
 		<br/>
-		<input type="text" id="inp" name="sp" placeholder="Add To-do here:"/>
-		<button onclick="add3()">Add!</button>
+		<button id="but3" onclick="add3()">Add!</button>
 		<br/>
 		<div>
 			<ul id="wrk3" onclick="del()" onmouseover="cross()" onmouseout="orig()">
 			</ul>
 		</div>
-        </div>
+    </div>
 
 </body>
 </html>
